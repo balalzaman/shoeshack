@@ -45,26 +45,31 @@
 	        <div class="row text-center">
 	            <div class="col-md-6">
 		            <input type="email" class="form-control" id="emailInput" placeholder="Email Address">
-                    
-                    <button type="submit" class="btn btn-danger g-3 py-1 mt-3 mb-3">Log In</button>
+                    <div class="col-md-6 form-check">
+                        <input type="checkbox" class="form-check-input mt-4" id="rememberMeCheck">
+                        <label class="form-check-label text-success py-4" for="rememberMeCheck"><mark>Remember Me</mark></label>
+                    </div>
 		        </div>
    
 		        <div class="col-md-6">
 			        <input type="password" class="form-control" id="passwordInput" placeholder="Password">
-                    <button type="submit" class="btn btn-danger g-3 py-1 mt-3 text-light">Forgot Password?</button>
 		        </div>
-
-                <div>
-                    <div class="col-md-3 form-check">
-                        <input type="checkbox" class="form-check-input mt-4" id="rememberMeCheck">
-                        <label class="form-check-label text-success py-4" for="rememberMeCheck"><mark>Remember Me</mark></label>
-                    </div>
-                </div>
                 
                 <div>
-                    <p class="col-md-4 text-primary">
-                        <a href="../registration/registration.html"><mark>New User? Sign Up Today!</mark></a> 
-                    </p>
+                    <div>
+                            <button type="submit" class="btn btn-danger g-3 py-1 mb-3">Log In</button>
+                    </div>
+                </div>
+
+                <div>
+                    <button type="submit" class="btn btn-danger g-3 py-1 mt-3 mb-3">Forgot Your Password?</button>
+                </div>
+
+                <div>
+                    <button type="submit" class="btn btn-danger g-3 py-1 mt-3 mb-3">
+                    <a href="../registration/registration.html" style="text-decoration: none;color:white">New User? Click Here to Sign Up Today!</a></button>
+                </div>
+
                 </div>
         </form>
     </div>
