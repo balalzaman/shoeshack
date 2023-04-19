@@ -11,6 +11,8 @@
    rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
    <link rel="stylesheet" href="../css/login.css">
+   <link rel="stylesheet" href="../css/remembermenewuser.css">
+
 </head>
 
     <nav> 
@@ -41,18 +43,29 @@
 
         <form class="row g-4 py-1">
 	        <div class="row text-center">
-	            <div class="form-floating col-md-6">
-		            <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
-                    <label for="emailInput" class="form-label text-center">Email Address</label>
-                    <button type="submit" class="btn btn-danger g-3 py-1 mt-1 ">Log In</button>
+	            <div class="col-md-6">
+		            <input type="email" class="form-control" id="emailInput" placeholder="Email Address">
+                    
+                    <button type="submit" class="btn btn-danger g-3 py-1 mt-3 mb-3">Log In</button>
 		        </div>
    
-		        <div class="form-floating col-md-6">
+		        <div class="col-md-6">
 			        <input type="password" class="form-control" id="passwordInput" placeholder="Password">
-                    <label for="passwordInput" class="form-label text-center">  Password</label>
-                    <button type="submit" class="btn btn-danger g-3 py-1 mt-1">Forgot Password?</button>
+                    <button type="submit" class="btn btn-danger g-3 py-1 mt-3 text-light">Forgot Password?</button>
 		        </div>
-	        </div>
+
+                <div>
+                    <div class="col-md-3 form-check">
+                        <input type="checkbox" class="form-check-input mt-4" id="rememberMeCheck">
+                        <label class="form-check-label text-success py-4" for="rememberMeCheck"><mark>Remember Me</mark></label>
+                    </div>
+                </div>
+                
+                <div>
+                    <p class="col-md-4 text-primary">
+                        <a href="../registration/registration.html"><mark>New User? Sign Up Today!</mark></a> 
+                    </p>
+                </div>
         </form>
     </div>
 </main>
