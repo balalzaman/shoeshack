@@ -2,6 +2,7 @@ body {
     padding-top: 3rem;
     padding-left: 3rem;
     padding-bottom: 3rem;
+    padding-right: 3rem;
     background-image: url('../login/freethrowline.png');
     background-repeat: no-repeat;
     background-attachment: scroll;
