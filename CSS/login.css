@@ -3,4 +3,6 @@ body {
     padding-left: 3rem;
     padding-bottom: 3rem;
     background-image: url('../login/freethrowline.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
 }

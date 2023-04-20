@@ -1,7 +1,9 @@
 body {
     padding-top: 3rem;
     padding-left: 3rem;
+
     padding-bottom: 3rem;
     background-image: url('../shoeshackhome/jordanbackground.jpg');
-    background-repeat: none;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
 } 
