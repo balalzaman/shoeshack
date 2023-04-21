@@ -4,6 +4,6 @@ body {
     padding-right: 3rem;
     padding-bottom: 3rem; 
     background-image: url('../checkout/checkoutpage.jpg');
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-attachment: scroll;
 }

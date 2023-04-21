@@ -3,7 +3,7 @@ body {
     padding-left: 3rem;
     padding-bottom: 3rem;
     padding-right: 3rem;
-    background-image: url('../login/freethrowline.png');
-    background-repeat: no-repeat;
+    background-image: url('../login/loginbackground2.jpg');
+    background-repeat: repeat;
     background-attachment: scroll;
 }

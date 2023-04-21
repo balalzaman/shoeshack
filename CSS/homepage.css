@@ -4,6 +4,6 @@ body {
     padding-bottom: 3rem;
     padding-right: 3rem;
     background-image: url('../shoeshackhome/homebackground.jpg');
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-attachment: scroll;
 } 
